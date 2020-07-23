@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/myRe"
+        android:layout_width="match_parent"
+        android:layout_height="495dp"
+        tools:itemCount="10"
+        tools:listitem="@layout/recycler_view_item" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:onClick="logout"
+        android:text="LOG OUT" />
+</LinearLayout>

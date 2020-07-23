@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Yellow Bus</string>
+    <string name="enter_email">enter email</string>
+    <string name="enter_password" />
+    <string name="Register_User" />
+    <string name="lat">Latitude:</string>
+    <string name="lng">Longitude:</string>
+    <string-array name="location">
+        <item>1083,NH 44(Route 1)</item>
+        <item>Sarjapur Main Road(Route 1)</item>
+        <item>Mahesh Stores(Route 1)</item>
+        <item>KFC Indiranagar(Route 2)</item>
+        <item>JeevanBheemaNagar(Route 2)</item>
+    </string-array>
+
+</resources>
